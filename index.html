@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./scss/style.css" />
+    <script src="./js/index.js" defer></script>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo">
+        <div class="todo__sidebar">
+          <div class="todo__sidebar-alltasks">
+            <img src="./assets/img/all-tasks.svg" alt="все задачи" />
+            <p>Все задачи</p>
+          </div>
+          <div class="todo__sidebar-lists"></div>
+          <div class="todo__sidebar-addlist">
+            <img src="./assets/img/add-list-plus.svg" alt="плюс" />
+            <p>Добавить папку</p>
+          </div>
+          <div class="todo__sidebar-form">
+            <img
+              class="todo__sidebar-form-close"
+              src="./assets/img/close-form.svg"
+              alt="кнопка закрытия"
+            />
+            <input
+              type="text"
+              placeholder="Название папки"
+              class="todo__sidebar-form-input"
+            />
+            <div class="todo__sidebar-form-colors"></div>
+            <button class="todo__sidebar-form-btn">Добавить</button>
+          </div>
+        </div>
+        <div class="todo__main">
+          <!-- <div class="todo__main-tasks"> -->
+          <!-- <div class="todo__main-task">
+              <div class="todo__main-task-checkbox"></div>
+              <div class="todo__main-task-name">Изучить JavaScript</div>
+            </div> -->
+          <!-- </div> -->
+          <!-- <div class="todo__main-addtask">
+            <img src="./assets/img/add-list-plus.svg" alt="добавить" />
+            <span>Новая задача</span>
+          </div>  -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
